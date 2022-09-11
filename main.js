@@ -28,7 +28,6 @@ function hiddenProperties() {
   bellImage.classList.add('hidden')
   loadingAnimation.classList.add('hidden')
   question.classList.add('hidden')
-  form.classList.add('hidden')
   paragraph.classList.remove('hidden')
   clearPageButton.classList.remove('hidden')
 }
@@ -42,14 +41,16 @@ function recieveMessageOnClick(event) {
 
 function recieveMessage() {
   if (affirmationInput.checked === true) {
+    console.log(affirmation[getRandomIndex(affirmation)])
     paragraph.innerText = affirmation[getRandomIndex(affirmation)]
     hiddenProperties();
-    body.style.background = 'linear-gradient(#FFB6C1 40%, #FFE4E1, #F8F8FF) no-repeat'
+    body.style.background = 'linear-gradient(#134d71 40%, #78a7c6, #f7e4bf)'
 }
   else if (mantraInput.checked === true) {
+    console.log(mantra[getRandomIndex(mantra)])
     paragraph.innerText = mantra[getRandomIndex(mantra)]
     hiddenProperties();
-    body.style.background = 'linear-gradient(#228B22 40%, #8FBC8F, #F8F8FF) no-repeat'
+    body.style.background = 'linear-gradient(#134d71 40%, #78a7c6, #f7e4bf)'
 }
   else if (!alert('Please select which kind of message you are requesting.')) {
    location.reload();
