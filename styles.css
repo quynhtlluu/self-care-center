@@ -42,7 +42,6 @@ h4 {
   background-color: white;
   width: 350px;
   min-height: 75px;
-  border: 1px solid black;
   border-radius: 10px;
 }
 
@@ -51,7 +50,6 @@ form {
   align-items: center;
   justify-content: space-around;
   flex-direction: column;
-  border: 1px solid black;
 }
 
 .button-inputs {
@@ -61,7 +59,6 @@ form {
   align-items: center;
   justify-content: space-evenly;
   flex-direction: row;
-  border: 1px solid black;
 }
 
 .affirmation-radio {
@@ -72,8 +69,6 @@ form {
   padding: 0px;
   margin-right: 50px;
   border-radius: 6px;
-  border: 1px solid black;
-
 }
 
 .mantra-radio {
@@ -84,8 +79,6 @@ form {
   padding: 0px;
   margin-left: 50px;
   border-radius: 6px;
-  border: 1px solid black;
-
 }
 
 .recieve-button {
@@ -93,8 +86,6 @@ form {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  margin-top: 100px;
-  border: 1px solid black;
 }
 
 #recieve {
